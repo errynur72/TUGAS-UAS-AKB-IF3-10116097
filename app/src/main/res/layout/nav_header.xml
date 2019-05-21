@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    android:paddingLeft="8dp"
+    android:paddingTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/foto"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/foto"/>
+
+    <TextView
+        android:textColor="@color/colorUtama"
+        android:text="10116097"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="@color/colorUtama"
+        android:text="Erry Nurhadiansyah"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <!--<TextView-->
+        <!--android:textColor="@color/colorUtama"-->
+        <!--android:text="Deskripsi : Saya adalah seseorang yang teratur dan fokus terhadap hasil kerja. Meskipun begitu saya orang yang realistis ketika mengatur sebuah goal dan mencoba lebih baik dan efisien dalam mencapai goal tersebut. Adapun hobby yang saya miliki yaitu dalam bidang musik yaitu bermain gitar.  "-->
+        <!--android:textSize="15dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+</LinearLayout>

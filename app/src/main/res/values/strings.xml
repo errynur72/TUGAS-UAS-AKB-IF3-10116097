@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_nama">AKB Face Unikom</string>
+    <string name="title_activity_detail">List Seluruh Teman</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="home">Home</string>
+    <string name="socmed">Social Media</string>
+    <string name="uu">Seluruh Teman</string>
+
+    <string name="red">Merah</string>
+    <string name="blue">Biru</string>
+    <string name="green">Hijau</string>
+</resources>

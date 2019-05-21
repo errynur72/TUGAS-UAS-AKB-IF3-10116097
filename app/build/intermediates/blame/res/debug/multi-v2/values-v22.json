@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\ry_send\\AKBFaceUnikom\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-searchview-2.2.5.aar\\e306cfed15f0485e034a164e3ef709be\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0-alpha01.aar\\4c32e12f927e304f49efb392dc98c347\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,10",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "105,180,267,603",
+                        "endLines": "3,4,9,14",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "175,262,598,946"
+                    }
+                }
+            ]
+        }
+    ]
+}

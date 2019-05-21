@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dm_nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/dm_nav_Profile"
+            android:icon="@drawable/ic_person"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/dm_nav_contact"
+            android:icon="@drawable/ic_sosmed"
+            android:title="Social Media" />
+
+        <item
+            android:id="@+id/dm_nav_listteman"
+            android:icon="@drawable/ic_uu"
+            android:title="List Friends" />
+    </group>
+</menu>
