@@ -1,6 +1,8 @@
-package com.nguliktime.learnrealm;
+package com.example.errrynurhadi.AKBFaceUnikom;
 
 import android.util.Log;
+
+import com.example.errrynurhadi.AKBFaceUnikom.model.MahasiswaModel;
 
 import java.util.List;
 
@@ -45,7 +47,7 @@ public class RealmHelper {
     }
 
     // To update data from database
-    public void update(final Integer id, final Integer nim, final String nama){
+    public void update(final Integer id, final Integer nim,final Integer telepon, final String nama,final String kelas,final String email,final String sosmed){
         realm.executeTransactionAsync(new Realm.Transaction() {
             @Override
             public void execute(Realm realm) {
@@ -53,7 +55,11 @@ public class RealmHelper {
                         .equalTo("id", id)
                         .findFirst();
                 model.setNim(nim);
+                model.setTelepon(telepon);
                 model.setNama(nama);
+                model.setKelas(kelas);
+                model.setEmail(email);
+                model.setSosmed(sosmed);
             }
         }, new Realm.Transaction.OnSuccess() {
             @Override
